@@ -1,0 +1,113 @@
+<web-app>
+
+	<display-name>
+		Optimal Meeting Location
+	</display-name>
+	
+<!-- User Registration Info -->
+
+	
+	
+	<servlet>
+		<servlet-name>NewUser</servlet-name>
+		<servlet-class>com.user.NewUser</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>NewUser</servlet-name>
+		<url-pattern>/NewUser</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.user.UserLogin</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UserLocation</servlet-name>
+		<servlet-class>com.user.UserLocation</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>UserLocation</servlet-name>
+		<url-pattern>/UserLocation</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangePass_User</servlet-name>
+		<servlet-class>com.user.ChangePass_User</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ChangePass_User</servlet-name>
+		<url-pattern>/ChangePass_User</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SendRequest</servlet-name>
+		<servlet-class>com.user.SendRequest</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>SendRequest</servlet-name>
+		<url-pattern>/SendRequest</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PreferredLocation</servlet-name>
+		<servlet-class>com.user.PreferredLocation</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PreferredLocation</servlet-name>
+		<url-pattern>/PreferredLocation</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SignOut</servlet-name>
+		<servlet-class>com.user.SignOut</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>SignOut</servlet-name>
+		<url-pattern>/SignOut</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdatePreferredLocation</servlet-name>
+		<servlet-class>com.user.UpdatePreferredLocation</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>UpdatePreferredLocation</servlet-name>
+		<url-pattern>/UpdatePreferredLocation</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FindFinalLocation</servlet-name>
+		<servlet-class>com.user.FindFinalLocation</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>FindFinalLocation</servlet-name>
+		<url-pattern>/FindFinalLocation</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>EditProfile</servlet-name>
+		<servlet-class>com.user.EditProfile</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>EditProfile</servlet-name>
+		<url-pattern>/EditProfile</url-pattern>
+	</servlet-mapping>
+							
+	
+</web-app>
